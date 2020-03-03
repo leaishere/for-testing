@@ -7,40 +7,32 @@
                 "links":"/compute/uhost/overview"
         },
         {
-                "name":"混合云 UHybrid",
-                "links":"/compute/uhybrid/overview"
-        },
-        {
                 "name":"物理云主机 UPHost",
                 "links":"/compute/uphost/overview"
         },
         {
-                "name":"私有专区 UDHost",
+                "name":"GPU云主机 UHost",
+                "links":"/ai/gpu/overview"
+        },
+        {
+                "name":"云主机私有专区 UDHost",
                 "links":"/compute/udhost/overview"
-        },
-        {
-                "name":"容器集群 UDocker",
-                "links":"/compute/udocker/overview"
-        },
-        {
-                "name":"通用计算 UGC",
-                "links":"/compute/ugc/overview"
-        },
-        {
-                "name":"公共镜像库 UHub",
-                "links":"/compute/uhub/overview"
         },
         {
                 "name":"容器云 UK8S",
                 "links":"/compute/uk8s/overview"
         },
         {
-                "name":"资源编排 Terraform",
-                "links":"/compute/terraform/overview"
+                "name":"通用计算 UGC",
+                "links":"/compute/ugc/overview"
         },
         {
-                "name":"弹性伸缩 UAS",
-                "links":"/compute/uas/overview"
+                "name":"容器集群 UDocker",
+                "links":"/compute/udocker/overview"
+        },
+        {
+                "name":"公共镜像库 UHub",
+                "links":"/compute/uhub/overview"
         }
     ]
     },
@@ -52,20 +44,20 @@
              "links":"/network/unet/overview"
             },
             {
-             "name":"智能接入网关 AccessGW（邀测中）",
-             "links":"/network/accessgw/overview"
+            "name":"负载均衡 ULB",
+            "links":"/network/ulb/overview"
             },
             {
              "name":"私有网络 VPC",
              "links":"/network/vpc/overview"
             },
             {
-             "name":"防火墙 Firewall",
-             "links":"/network/firewall/overview"
+             "name":"VPN 网关 IPSec VPN",
+             "links":"/network/ipsec/overview"
             },
             {
-             "name":"内网虚拟IP地址 VIP",
-             "links":"/network/vip/overview"
+             "name":"智能接入网关 AccessGW（邀测中）",
+             "links":"/network/accessgw/overview"
             },
             {
              "name":"高速通道 UDPN",
@@ -76,16 +68,8 @@
              "links":"/network/pathx/overview"
             },
             {
-             "name":"VPN 网关 IPSec VPN",
-             "links":"/network/ipsec/overview"
-            },
-            {
-             "name":"虚拟网络 VPN",
-             "links":"/network/vpn/overview"
-            },
-            {
-            "name":"内网域名解析 UDEE",
-            "links":"/network/udee/overview"
+             "name":"内网虚拟IP地址 VIP",
+             "links":"/network/vip/overview"
             },
             {
             "name":"AnycastEIP",
@@ -96,16 +80,8 @@
             "links":"/network/ipv6translation/overview"
             },
             {
-            "name":"全球网络加速 罗马 Rome",
-            "links":"/network/roma/overview"
-            },
-            {
             "name":"全球移动网络 UMQA",
             "links":"/network/umqa/overview"
-            },
-            {
-            "name":"负载均衡 ULB",
-            "links":"/network/ulb/overview"
             }
         ]
     },
@@ -246,10 +222,6 @@
             {
              "name":"内容审核 UAI-Censor",
              "links":"/ai/uai-censor/overview"
-            },
-            {
-            "name":"文字识别 UAI-OCR",
-            "links":"/ai/uai-ocr/overview"
             }
         ]
     },  
@@ -321,6 +293,19 @@
         ]
     }, 
     {
+        "listname":"多云与迁移",
+        "listvalue":[
+            {
+            "name":"全球网络加速 罗马 Rome",
+            "links":"/network/roma/overview"
+            },
+            {
+            "name":"数据传输服务 UDTS",
+            "links":"/middleware/udts/overview"
+            }
+        ]
+    }, 
+    {
         "listname":"物联网",
         "listvalue":[
             {
@@ -332,10 +317,6 @@
     {
         "listname":"中间件",
         "listvalue":[
-            {
-            "name":"数据传输服务 UDTS",
-            "links":"/middleware/udts/overview"
-            },
             {
              "name":"工作流服务 StepFlow",
              "links":"/middleware/stepflow/overview"
@@ -507,3 +488,6 @@
         ]
     } 
 ]}
+
+
+
