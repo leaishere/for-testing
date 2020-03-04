@@ -152,59 +152,6 @@
         ]
     },  
     {
-        "listname":"安全/优盾",
-        "listvalue":[
-            {
-             "name":"DDoS基础防护",
-             "links":"/security/usecurity/overview"
-            },
-            {
-             "name":"态势感知 USSA",
-             "links":"/security/usa/overview"
-            },
-            {
-             "name":"DDoS攻击防护 UDDoS",
-             "links":"/security/uantiddos/overview"
-            },
-            {
-             "name":"DDoS攻击防护-清洗 UClean",
-             "links":"/security/clean/overview"
-            },
-            {
-             "name":"DDoS攻击防护-高防 UADS",
-             "links":"/security/uads/overview"
-            },
-            {
-            "name":"主机入侵检测 UHIDS",
-            "links":"/security/uhids/overview"
-            },
-            {
-            "name":"堡垒机 UAuditHost",
-            "links":"/security/uhas/overview"
-            },
-            {
-            "name":"Web应用防火墙 UWAF",
-            "links":"/security/uewaf/overview"
-            },
-            {
-            "name":"WEB漏洞扫描系统 UWS",
-            "links":"/security/uws_robot/overview"
-            },
-            {
-            "name":"数据库审计 UAuditDB",
-            "links":"/security/udas/overview"
-            },
-            {
-            "name":"等保测评服务 UDBCP",
-            "links":"/security/udbcp/overview"
-            },
-            {
-            "name":"Anycast全球清洗 UAnycastClean",
-            "links":"/security/uanycastclean/overview"
-            }
-        ]
-    }, 
-    {
         "listname":"云分发",
         "listvalue":[
             {
@@ -377,62 +324,34 @@
         ]
     }, 
     {
-        "listname":"安全防护",
+        "listname":"安全合规",
         "listvalue":[
             {
-            "name":"Web应用防火墙 UWAF",
-            "links":"/security/uewaf/overview"
+            "name":"堡垒机 UAuditHost",
+            "links":"/security/uhas/overview"
             },
             {
-             "name":"DDoS基础防护",
-             "links":"/security/usecurity/overview"
-            },
-             "name":"DDoS攻击防护 UDDoS",
-             "links":"/security/uantiddos/overview"
+            "name":"等保测评服务 UDBCP",
+            "links":"/security/udbcp/overview"
             },
             {
-             "name":"DDoS攻击防护-清洗 UClean",
-             "links":"/security/clean/overview"
-            },
-            {
-             "name":"DDoS攻击防护-高防 UADS",
-             "links":"/security/uads/overview"
-            },
-            {
-            "name":"Anycast全球清洗 UAnycastClean",
-            "links":"/security/uanycastclean/overview"
-            },
-            {
-            "name":"WEB漏洞扫描系统 UWS",
-            "links":"/security/uws_robot/overview"
-            },
-            {
-            "name":"主机入侵检测 UHIDS",
-            "links":"/security/uhids/overview"
-            },
-            {
-             "name":"态势感知 USSA",
-             "links":"/security/usa/overview"
-            },
-            
-        ]
-    }, 
-    {
-        "listname":"运维服务",
-        "listvalue":[
-            {
-             "name":"运维服务 UOPS",
-             "links":"/service/uops/overview"
+            "name":"数据库审计 UAuditDB",
+            "links":"/security/udas/overview"
             }
         ]
     }, 
     {
-        "listname":"管理与监控",
+        "listname":"混合云",
         "listvalue":[
-            {
-             "name":"API产品 UAPI",
-             "links":"/management_monitor/uapi/overview"
-            },
+           {
+            "name":"混合云 UHybrid",
+            "links":"/compute/uhybrid/overview"
+           }   
+        ]
+    }, 
+    {
+        "listname":"监控与管理",
+        "listvalue":[
             {
              "name":"UCloud令牌服务 UToken",
              "links":"/management_monitor/utoken/overview"
@@ -456,6 +375,15 @@
             {
              "name":"工作流服务 StepFlow",
              "links":"/middleware/stepflow/overview"
+            }
+        ]
+    }, 
+    {
+        "listname":"运维服务",
+        "listvalue":[
+            {
+             "name":"运维服务 UOPS",
+             "links":"/service/uops/overview"
             }
         ]
     }, 
@@ -522,8 +450,25 @@
         ]
     }, 
     {
+        "listname":"政策与规范",
+        "listvalue":[
+            {
+             "name":"服务等级协议（SLA）",
+             "links":"/policy/sla/overview"
+            },
+            {
+             "name":"其他协议",
+             "links":"/policy/agreement/overview"
+            }
+        ]
+    },
+    {
         "listname":"开发者工具",
         "listvalue":[
+            {
+             "name":"API产品 UAPI",
+             "links":"/management_monitor/uapi/overview"
+            },
             {
              "name":"UCloud CLI",
              "links":"/developer/cli/overview"
@@ -539,22 +484,13 @@
             {
             "name":"OpenSDK Python",
             "links":"/developer/opensdk-python/overview"
-            }
-        ]
-    }, 
-    {
-        "listname":"政策与规范",
-        "listvalue":[
-            {
-             "name":"服务等级协议（SLA）",
-             "links":"/policy/sla/overview"
             },
             {
-             "name":"其他协议",
-             "links":"/policy/agreement/overview"
+            "name":"资源编排 Terraform",
+            "links":"/compute/terraform/overview"
             }
         ]
-    } 
+    }
 ]}
 
 
