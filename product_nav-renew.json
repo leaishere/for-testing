@@ -353,12 +353,16 @@
         "listname":"监控与管理",
         "listvalue":[
             {
-             "name":"UCloud令牌服务 UToken",
-             "links":"/management_monitor/utoken/overview"
-            },
-            {
              "name":"云监控 UMon",
              "links":"/management_monitor/umon/overview"
+            },
+            {
+             "name":"工作流服务 StepFlow",
+             "links":"/middleware/stepflow/overview"
+            },
+            {
+             "name":"UCloud令牌服务 UToken",
+             "links":"/management_monitor/utoken/overview"
             },
             {
              "name":"安全锁 Security Lock",
@@ -367,19 +371,11 @@
             {
             "name":"操作日志 ULog",
             "links":"/management_monitor/manage/overview"
-            },
-            {
-            "name":"账号与权限管理 UAM",
-            "links":"/management_monitor/uproject/overview"
-            },
-            {
-             "name":"工作流服务 StepFlow",
-             "links":"/middleware/stepflow/overview"
             }
         ]
     }, 
     {
-        "listname":"运维服务",
+        "listname":"运维支持",
         "listvalue":[
             {
              "name":"运维服务 UOPS",
@@ -388,7 +384,40 @@
         ]
     }, 
     {
-        "listname":"购买和计费",
+        "listname":"账号与权限",
+        "listvalue":[
+            {
+             "name":"账号注册",
+             "links":"/account/register/overview"
+            },
+            {
+             "name":"用户提醒",
+             "links":"/account/remind/overview"
+            },
+            {
+             "name":"账号登录",
+             "links":"/account/login/overview"
+            },
+            {
+             "name":"账号安全",
+             "links":"/account/security/overview"
+            },
+            {
+             "name":"实名认证",
+             "links":"/account/identity_verification/overview"
+            },
+            {
+             "name":"权限管理",
+             "links":"/account/iam/overview"
+            },
+            {
+            "name":"账号与权限管理 UAM",
+            "links":"/management_monitor/uproject/overview"
+            }
+        ]
+    }, 
+    {
+        "listname":"购买与计费",
         "listvalue":[
             {
              "name":"交易管理",
@@ -417,35 +446,6 @@
             {
             "name":"计费说明",
             "links":"/charge/charge/overview"
-            }
-        ]
-    }, 
-    {
-        "listname":"账号",
-        "listvalue":[
-            {
-             "name":"账号注册",
-             "links":"/account/register/overview"
-            },
-            {
-             "name":"用户提醒",
-             "links":"/account/remind/overview"
-            },
-            {
-             "name":"账号登录",
-             "links":"/account/login/overview"
-            },
-            {
-             "name":"账号安全",
-             "links":"/account/security/overview"
-            },
-            {
-             "name":"实名认证",
-             "links":"/account/identity_verification/overview"
-            },
-            {
-             "name":"权限管理",
-             "links":"/account/iam/overview"
             }
         ]
     }, 
