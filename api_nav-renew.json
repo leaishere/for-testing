@@ -61,12 +61,20 @@
       "listname":"数据库",
       "listvalue":[
         {
-          "name":"云数据库MySQL UDB",
-          "links":"/api/udb-api/README"
+          "name":"云数据库 UDB MySQL ",
+          "links":"/api/udb-api/mysql_readme"
         },
         {
-          "name":"云内存 UMem",
-          "links":"/api/umem-api/README"
+          "name":"云数据库 UDB MongoDB",
+          "links":"/api/udb-api/mongodb_readme"
+        },
+        {
+          "name":"云内存 UMem Memcache",
+          "links":"/api/umem-api/Memcache_readme"
+        },
+        {
+          "name":"云内存 UMem Redis",
+          "links":"/api/umem-api/redis_readme"
         },
         {
           "name":"分布式数据库 UDDB",
@@ -151,7 +159,7 @@
       "listname":"安全防护",
       "listvalue":[
         {
-          "name":"DDos攻击防护-清洗服务 UDDos-UClean",
+          "name":"DDoS攻击防护 UDDos",
           "links":"/api/uddos-uclean-api/README"
         }
       ]
@@ -191,7 +199,7 @@
       "listname":"账号与权限",
       "listvalue":[
         {
-          "name":"权限管理 UAM",
+          "name":"账号与权限管理 UAM",
           "links":"/api/uaccount-api/README"
         }
       ]
@@ -200,7 +208,7 @@
       "listname":"购买与计费",
       "listvalue":[
         {
-          "name":"账单管理 UBill",
+          "name":"账单管理",
           "links":"/api/ubill-api/README"
         }
       ]
