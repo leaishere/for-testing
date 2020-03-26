@@ -40,7 +40,7 @@
         "listname":"网络",
         "listvalue":[
             {
-             "name":"网络 UNet",
+             "name":"基础网络 UNet",
              "links":"/unet/README"
             },
             {
@@ -56,10 +56,6 @@
              "links":"/ipsec/README"
             },
             {
-             "name":"智能接入网关 AccessGW（邀测中）",
-             "links":"/accessgw/README"
-            },
-            {
              "name":"高速通道 UDPN",
              "links":"/udpn/README"
             },
@@ -68,16 +64,8 @@
              "links":"/pathx/README"
             },
             {
-             "name":"内网虚拟IP地址 VIP",
-             "links":"/vip/README"
-            },
-            {
             "name":"AnycastEIP",
             "links":"/anycasteip/README"
-            },
-            {
-            "name":"IPv6转换功能",
-            "links":"/ipv6translation/README"
             },
             {
             "name":"全球移动网络 UMQA",
@@ -89,27 +77,27 @@
         "listname":"数据库",
         "listvalue":[
             {
-             "name":"云数据库MySQL UDB",
+             "name":"云数据库 UDB MySQL ",
              "links":"/udb-mysql/README"
             },
             {
-             "name":"云数据库MongoDB UDB",
+             "name":"云数据库 UDB MongoDB ",
              "links":"/udb-mongodb/README"
             },
             {
-             "name":"云数据库PostgreSQL UDB",
+             "name":"云数据库 UDB PostgreSQL",
              "links":"/udb-pgsql/README"
             },
             {
-             "name":"云数据库SQL Server UDB",
+             "name":"云数据库 UDB SQL Server ",
              "links":"/udb-sqlserver/README"
             },
             {
-            "name":"云内存Memcache UMem",
+            "name":"云内存 UMem Memcache",
             "links":"/umem/README"
             },
             {
-            "name":"云内存Redis UMem",
+            "name":"云内存 UMem Redis",
             "links":"/uredis/README"
             },
             {
@@ -220,6 +208,10 @@
             {
              "name":"物联网通信云平台 UIoT Core",
              "links":"/uiot-core/README"
+            },
+            {
+             "name":"智能接入盒子 Accessbox",
+             "links":"/accessgw/README"
             }
         ]
     }, 
@@ -248,7 +240,7 @@
         "listname":"多云与迁移",
         "listvalue":[
             {
-            "name":"全球网络加速 罗马 Rome",
+            "name":"罗马 Rome",
             "links":"/roma/README"
             },
             {
@@ -290,28 +282,8 @@
             "links":"/uewaf/README"
             },
             {
-             "name":"DDoS基础防护",
-             "links":"/usecurity/README"
-            },
-            {
              "name":"DDoS攻击防护 UDDoS",
              "links":"/uantiddos/README"
-            },
-            {
-             "name":"DDoS攻击防护-清洗 UClean",
-             "links":"/clean/README"
-            },
-            {
-             "name":"DDoS攻击防护-高防 UADS",
-             "links":"/uads/README"
-            },
-            {
-            "name":"Anycast全球清洗 UAnycastClean",
-            "links":"/uanycastclean/README"
-            },
-            {
-            "name":"WEB漏洞扫描系统 UWS",
-            "links":"/uws_robot/README"
             },
             {
             "name":"主机入侵检测 UHIDS",
@@ -398,10 +370,6 @@
             {
              "name":"实名认证",
              "links":"/identity_verification/README"
-            },
-            {
-             "name":"权限管理",
-             "links":"/iam/README"
             },
             {
             "name":"账号与权限管理 UAM",
